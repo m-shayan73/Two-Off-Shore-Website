@@ -1,0 +1,148 @@
+nav.navbar.navbar-expand-lg {
+    background: transparent;
+    font-size: 14px;
+}
+
+nav#top-nav {
+    padding: 30px 0px;
+}
+
+nav#top-nav .container,
+nav#top-nav .col-3,
+nav#top-nav .col-8,
+nav#top-nav .col-6,
+nav#top-nav .navbar-brand {
+    padding: 0;
+}
+
+nav#bottom-nav {
+    padding: 0;
+}
+
+a.nav-link {
+    color: #212934;
+    padding: 0px;
+    font-weight: 600;
+}
+
+li.nav-item {
+    padding-right: 50px;
+}
+
+.dropdown-menu{
+    border: none;
+}
+
+.dropdown-menu li a.dropdown-item{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/*  */
+
+
+footer {
+    background-image: url("https://www.twooffshore.com/wp-content/uploads/2020/10/footerbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ft2 {
+    background-image: none;
+    background-color: #1C1C1C;
+    padding: 20px 30px;
+}
+
+footer {
+    font-size: 13px;
+    color: #ffffffcc;
+}
+
+footer h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3),
+.input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-control,
+.input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-select,
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+    border-radius: 0;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    font-weight: 600;
+    padding: 8px 10px 0px 0px;
+}
+
+footer ul li a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+footer button.btn.btn-danger {
+    font-size: 13px;
+}
+
+.copyright-text {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+#copyright-link {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+
+@media (max-width:767px) {
+    footer .col-sm-6 {
+        margin-bottom: 20px;
+    }
+
+    footer#ft2 {
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width:991px) {
+    nav#bottom-nav {
+        display: none !important;
+    }
+
+    nav#top-nav {
+        display: none;
+    }
+
+    .navbar-dark .navbar-toggler {
+        border-color: rgba(255,255,255,1);
+    }
+
+    nav.navbar.navbar-expand-lg {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    a.nav-link {
+        color: #212934;
+        padding: 6px !important;
+    }
+
+    
+
+}
+
+@media (min-width:992px){
+    nav#collapse-nav{
+        display: none;
+    }
+
+    nav#navbarTogglerDemo02{
+        display: none;
+    }
+}

@@ -1,0 +1,414 @@
+nav#top-nav {
+    z-index: 2;
+}
+
+.carousel-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carouselExample {
+    position: relative;
+    margin-top: -15vw;
+}
+
+.carousel-caption {
+    bottom: 10%;
+    left: 15%;
+    text-shadow: rgba(0, 0, 0, 0.75) 3px 1px 3px;
+}
+
+section.quote-section {
+    background-color: #f7f7f7;
+}
+
+button#lm-btn {
+    padding: 15px 30px;
+    font-size: 14px;
+}
+
+.col-12.col-lg-10 b {
+    color: black;
+    font-size: 16px;
+}
+
+.col-10 span b {
+    color: white;
+    font-size: 14px;
+}
+
+section.intro-section {
+    background-image: url("https://www.twooffshore.com/wp-content/uploads/2020/10/introductionbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 30px;
+}
+
+
+div#yt-video {
+    background-image: url(https://www.twooffshore.com/wp-content/uploads/2020/12/video-website-300x169.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-width: 8px;
+    border-style: solid;
+    border-color: white;
+    min-height: 300px;
+}
+
+#exampleModal{
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(20, 20, 20, 0.9);
+}
+
+#exampleModal.show{
+    display: flex !important;
+}
+
+.modal-dialog {
+    max-width: 90vw;
+    max-height: 90vh;
+}
+
+.modal-content {
+    min-width: 80vw;
+    min-height: 80vh;
+}
+
+.modal-body {
+    height: 0px;
+}
+
+section.services-section {
+    padding: 100px 30px 80px;
+    color: black;
+}
+
+section.services-section span,
+section.gallery-section span,
+section.clients-section span {
+    font-size: 45px;
+    color: #ED1C24;
+    font-weight: 700;
+}
+
+section.services-section h2,
+section.gallery-section h2,
+section.clients-section h2 {
+    color: #222222;
+    font-weight: 700;
+}
+
+section.services-section p b,
+section.clients-section p b {
+    color: black;
+}
+
+.card {
+    background-color: #F7F7F7;
+    padding: 30px;
+    margin-bottom: 5px;
+    border-radius: 0.2rem;
+    height: 96%;
+}
+
+.card-img svg {
+    width: 80px;
+}
+
+.card h6 {
+    font-size: 16px;
+    color: #222222;
+    margin: 0px 0px 15px 0px;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 14px;
+    color: #777777;
+}
+
+.card a {
+    font-size: 14px;
+    color: #ED1C24;
+    text-decoration: none;
+}
+
+.card:hover {
+    color: white !important;
+    background-color: #ED1C24;
+}
+
+.card:hover p,
+.card:hover h6,
+.card:hover a {
+    color: white;
+}
+
+.card:hover .cls-1,
+.card:hover .cls-2,
+.card:hover .cls-3,
+.card:hover .cls-4,
+.card:hover .fa-angle-right {
+    fill: white;
+    color: white !important;
+}
+
+
+section.about-section {
+    background-image: url("https://www.twooffshore.com/wp-content/uploads/2020/10/successfulbanner-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 30px 80px;
+}
+
+section.about-section span {
+    font-size: 14px;
+}
+
+section.about-section span.counter-count {
+    font-size: 50px;
+}
+
+
+section.gallery-section {
+    padding: 100px 30px 0px;
+}
+
+section.gallery-section .col-12.col-md-4.col-lg-3 {
+    padding: 5px 2.5px;
+}
+
+
+section.clients-section {
+    padding: 100px 30px 80px;
+}
+
+.col-2,
+.col-1 {
+    padding: 0;
+    margin: 0;
+}
+
+
+p {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #ED1C24;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+@media (min-width:992px){
+    nav#navbarTogglerDemo02{
+        display: none;
+    }
+}
+
+
+@media (max-width:991px) {
+    #carouselExample {
+        position:unset;
+        margin-top: unset;
+    }
+
+    .carousel-caption p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .carousel-caption h2{
+        font-size: 20px;
+    }
+
+    .carousel-caption ul li{
+        font-size: 12px;
+    }
+
+    button#lm-btn{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    section.intro-section {
+        padding: 40px 30px 35px;
+    }
+
+    .yt-frame{
+        height: 50% !important;
+    }
+
+    section.services-section {
+        padding: 40px 30px 20px;
+    }
+
+    section.services-section .card {
+        padding-inline: 0px;
+    }
+
+    section.about-section h2 {
+        font-size: 20px;
+    }
+
+    section.gallery-section {
+        padding: 50px 30px 0px;
+    }
+
+    section.clients-section {
+        padding: 40px 30px 40px;
+    }
+}
+
+
+@media (max-width:767px) {
+    .carousel-caption p{
+        font-size: 5px;
+        margin-bottom: 5px;
+    }
+
+    .carousel-caption h2{
+        font-size: 10px;
+    }
+
+    .carousel-caption ul li{
+        font-size: 6px;
+    }
+
+    button#lm-btn{
+        font-size: 6px;
+        padding: 5px 10px;
+    }
+
+    .yt-frame{
+        height: 30% !important;
+    }
+
+    h3 {
+        color: #ED1C24;
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    section.services-section span,
+    section.gallery-section span,
+    section.clients-section span {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    section.quote-section{
+        text-align: center;
+    }
+}
+
+
+/*  */
+
+.modal#myModal {
+    display: none;
+    position: fixed;
+    z-index: 500000;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .95);
+}
+
+.modal-content#img-modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.mySlides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+section.gallery-section img {
+    margin-bottom: -4px;
+    cursor: pointer;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.mySlides img {
+    width: 100%;
+}

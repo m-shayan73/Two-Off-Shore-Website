@@ -1,0 +1,427 @@
+/* Styling for all except index/home */
+
+header{
+    background-image: url("https://www.twooffshore.com/wp-content/uploads/2020/10/aboutbanner.png") !important;
+}
+
+header h1{
+    color: white;
+    font-size: 54px;
+    font-weight: 800;
+}
+
+section.quote-section{
+    background-color: #f7f7f7;
+}
+
+section.quote-section b{
+    color: black;
+}
+
+section h2 p{
+    font-size: 45px !important;
+    color: #222222 !important;
+    font-weight: 800 !important;
+}
+
+section h4 p{
+    font-size: 45px;
+    color: #ED1C24;
+}
+
+section p{
+    color: black;
+    font-weight: bold;
+}
+
+
+/* PRIORITY */
+
+section.activity-section ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li{
+    color: black;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+section.activity-section ul li::before{
+    content: '–';
+}
+
+
+/* WORK */
+
+section.work3-section p{
+    color: #777777;
+    font-weight: normal;
+}
+
+section.work3-2{
+    background-image: url(https://www.twooffshore.com/wp-content/uploads/2020/10/work4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section.work3-2 .row{
+    padding: 80px 0px 80px 30px;
+}
+
+section.work3-2 .row .col-4, section.work3-2 .row .col-8{
+    padding: 0;
+}
+
+section.work3-2 ul li{
+    color: white;
+}
+
+
+/* Profile */
+
+section.believe-section span{
+    font-size: 24px;
+    color: #212934;
+    font-weight: 700;
+}
+
+section.believe-section ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section.believe-section ul li p{
+    padding-left: 2.5rem;
+}
+
+
+strong{
+    color: #777777;
+    font-weight: 700;
+}
+
+
+/* Team */
+.card{
+    border: none;
+    text-align: center;
+}
+
+section.team-section span{
+    overflow: hidden;
+    border: 8pt solid #e2e2e2;
+}
+
+section.team-section img{
+    width: 100%;
+    transition: transform 0.4s ease;
+    transform-origin: 50% 50%;
+}
+
+section.team-section img:hover{
+    transform: scale(1.1);
+    width: 100%;
+}
+
+section.team-section .card h5{
+    font-size: 20px;
+    color: #222222;
+    font-weight: 500;
+}
+
+section.team-section .card p{
+    color: #777777;
+}
+
+section.team-section .card a.btn.btn-danger{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+
+/* contact-us */
+section.contact-section{
+    background-image: url("https://www.twooffshore.com/wp-content/uploads/2020/10/contact-1.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+section.contact-section .col-md-4{
+    background-color: rgba(0, 0, 0, 0.59);
+}
+
+.form-control{
+    background-color: #f2f3f5;
+    border-radius: 0;
+}
+
+hr{
+    color: white;
+    opacity: 1;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+section.contact-section h5{
+    font-weight: 600;
+}
+
+
+section.contact-section p{
+    font-size: 14px;
+    color: white;
+    font-weight: normal;
+    margin: 0;
+}
+
+section.contact-section p span{
+    font-weight: 600;
+}
+
+
+
+
+
+
+/*  */
+
+@media (max-width:767px){
+    section h2 p{
+        font-size: 32px !important;
+        color: #222222 !important;
+        font-weight: 800 !important;
+    }
+    
+    section h4 p{
+        font-size: 32px;
+        color: #ED1C24;
+    }
+    
+    section p{
+        color: black;
+        font-weight: bold;
+    }
+    
+    section ul li{
+        color: black;
+        line-height: 2rem;
+        font-weight: bold;
+    }
+
+    section.quote-section{
+        text-align: center;
+    }
+
+/*  */
+
+    section.standard-section img, section.activity-section img, section.achievement-section img{
+        padding-bottom: 20px;
+    }
+
+
+/*  */
+
+section.work3-2{
+    background-image: unset;
+    background-color: #ED1C24;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section.work2-section strong{
+    font-size: 22px !important;
+}
+
+section.work2-section p{
+    text-align: center !important;
+}
+
+
+/*  */
+
+section.facts h2 p{
+    font-size: 26px !important;
+}
+
+section.facts div.col-12.py-md-5.text-center{
+    padding: 20px 5px;
+}
+
+    .pt-100{
+        padding-top: 30px !important;
+    }
+
+    .pb-100{
+        padding-bottom: 30px !important;
+    }
+    
+}
+
+/*  */
+
+section.gallery-section .col-12.col-md-4.col-lg-3 {
+    padding: 5px 2.5px;
+}
+
+
+.modal#myModal {
+    display: none;
+    position: fixed;
+    z-index: 500000;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .95);
+}
+
+.modal-content#img-modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.close {
+    color: #ED1C24;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.mySlides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+section.gallery-section img {
+    cursor: pointer;
+    margin-bottom: -4px;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.mySlides img {
+    width: 100%;
+}
+
+@media (max-width:991px){
+    /* section.standard-section.pb-100{
+        padding-bottom: 10px;
+    } */
+
+    section.work3-2 .row{
+        padding: unset;
+    }
+
+    header h1{
+        font-size: 40px;
+        font-weight: 800;
+    }
+    
+}
+
+@media (max-width:767px){
+    header h1{
+        font-size: 30px;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:991px){
+    section h2 p{
+        font-size: 38px !important;
+        color: #222222 !important;
+        font-weight: 800 !important;
+    }
+    
+    section h4 p{
+        font-size: 38px;
+        color: #ED1C24;
+    }
+    
+    section p{
+        color: black;
+        font-weight: bold;
+    }
+    
+    section ul li{
+        color: black;
+        line-height: 2rem;
+        font-weight: bold;
+    }
+
+    div#contact-form h2 p{
+        color: white !important;
+    }
+
+    div#contact-form h2 p span{
+        color: white !important;
+    }
+}
+
